@@ -68,7 +68,7 @@ export interface PaymentParams {
 @Plugin({
   pluginName: 'Wechat',
   plugin: 'cordova-plugin-wechat',
-  pluginRef: 'plugins.Wechat',
+  pluginRef: 'Wechat',
   repo: 'https://github.com/xu-li/cordova-plugin-wechat', // the github repository URL for the plugin
   platforms: ['Android', 'iOS'], // Array of platforms supported, example: ['Android', 'iOS']
   install: 'cordova plugin add cordova-plugin-wechat --variable wechatappid=YOUR_WECHAT_APPID', // OPTIONAL install command, in case the plugin requires variables
